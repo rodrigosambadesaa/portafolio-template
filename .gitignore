@@ -1,6 +1,34 @@
 *.db
 *.py[cod]
-.venv
-.web
 __pycache__/
+
+# Virtualenv and local framework dirs
+.venv/
+.web/
+
+# Build artifacts
 public/
+frontend.zip
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Vercel local config
+.vercel/
+
+# Personal documents / sensitive local assets
+curriculum_*.pdf
+assets/data/cv.pdf
+
+# Editor / OS noise
+*.log
+.DS_Store
+Thumbs.db

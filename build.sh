@@ -1,10 +1,17 @@
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
+#!/usr/bin/env bash
+set -euo pipefail
+
+PYTHON_BIN="python3"
+if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
+	PYTHON_BIN="python"
+fi
+
+"$PYTHON_BIN" -m venv .venv
+. .venv/bin/activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-rm -rf public
+rm -rf public frontend.zip
 reflex init
 reflex export --frontend-only
-unzip frontend.zip -d public
+unzip -o frontend.zip -d public
 rm -f frontend.zip
-deactivate

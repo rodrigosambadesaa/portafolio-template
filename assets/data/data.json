@@ -1,128 +1,203 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Rodrigo Sambade Saá | Portfolio",
+    "description": "Desarrollador de aplicaciones móviles y web con experiencia en IA, Java y stacks modernos frontend/backend.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Rodrigo Sambade Saá",
+    "skill": "Desarrollador de Aplicaciones Móviles y Web",
+    "location": "Santiago de Compostela, España",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "rodrigosambadesaa@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/rodrigosambadesaa",
+        "likedin": "https://linkedin.com/in/rodrigo-sambade-5675bb186"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Desarrollador especializado en aplicaciones móviles y web, con experiencia en investigación aplicada a tecnologías del lenguaje e inteligencia artificial. He trabajado en proyectos institucionales y académicos desarrollando soluciones con Java, Python, Flutter y stacks frontend modernos.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-java-plain",
+            "name": "Java"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-flutter-plain",
+            "name": "Flutter"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-angularjs-plain",
+            "name": "Angular"
+        },
+        {
+            "icon": "devicon-nextjs-original",
+            "name": "Next.js"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML5"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS3"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
+        },
+        {
+            "icon": "devicon-kubernetes-plain",
+            "name": "Kubernetes"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "SQL"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "smartphone",
+            "title": "Concello de Santiago de Compostela",
+            "subtitle": "Desarrollador de Aplicaciones",
+            "description": "Desarrollo de tres aplicaciones móviles para la Senda del Río Sar, el Mercado de Abastos y el Museo do Pobo Galego, integrando tecnologías web y móviles en entornos reales.",
+            "date": "oct 2023 - oct 2024"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "flask-conical",
+            "title": "CiTIUS - Universidade de Santiago de Compostela",
+            "subtitle": "Técnico Especialista de Investigación",
+            "description": "Participación en el Proxecto Nós: administración de webs, contribución en Linguakit y refactorización de SimpleNLG-GL con enfoque en investigación y calidad de software.",
+            "date": "abr 2022 - abr 2023"
+        },
+        {
+            "icon": "briefcase",
+            "title": "Coremain",
+            "subtitle": "Estudiante en prácticas",
+            "description": "Desarrollo principal en plataforma web Camunda para el área de industria privada, trabajando con Java, Maven, XML y control de versiones con Git.",
+            "date": "sep 2019 - nov 2019"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "map",
+            "title": "Apps turísticas y culturales de Santiago",
+            "subtitle": "Concello de Santiago de Compostela",
+            "description": "Desarrollo de aplicaciones móviles para difusión y guía de espacios clave de la ciudad: Senda del Río Sar, Mercado de Abastos y Museo do Pobo Galego.",
+            "technologies": [
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React Native"
+                },
+                {
+                    "icon": "devicon-angularjs-plain",
+                    "name": "Angular"
+                },
+                {
+                    "icon": "devicon-astro-plain",
+                    "name": "Astro"
+                }
+            ],
+            "image": "/project_1.jpg",
+            "url": "https://www.santiagodecompostela.gal/",
+            "github": ""
+        },
+        {
+            "icon": "languages",
+            "title": "Proxecto Nós y herramientas del lenguaje",
+            "subtitle": "CiTIUS - USC",
+            "description": "Soporte y desarrollo en webs del Proxecto Nós y curso de verano, colaboración en Linguakit y mejora de librerías de generación de texto en gallego.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
                     "name": "Python"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
+                    "icon": "devicon-handlebars-plain",
+                    "name": "Handlebars"
+                },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-docker-plain",
+                    "name": "Docker"
                 }
             ],
             "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "url": "https://nos.gal/",
+            "github": ""
         }
     ],
     "training": [
         {
+            "icon": "graduation-cap",
+            "title": "Docker Kubernetes with AWS: Containerize & Deploy",
+            "subtitle": "Udemy",
+            "description": "Curso de despliegue y contenerización en AWS.",
+            "date": "dic 2020",
+            "certificate": "http://bit.ly/certificadoDockerKubernetesWithAWS"
+        },
+        {
             "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Cursos realizados en campusMVP",
+            "subtitle": "campusMVP",
+            "description": "Formación técnica intensiva en desarrollo de software.",
+            "date": "abr 2020 - jul 2020",
+            "certificate": "https://www.campusmvp.es/certificados/rodrigo-sambade-saa"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Ciclo Superior en Desarrollo de Aplicaciones Multiplataforma",
+            "subtitle": "TESDAI",
+            "description": "Proyecto final con calificación de 10.",
+            "date": "sep 2017 - dic 2019",
+            "certificate": ""
+        },
+        {
+            "icon": "languages",
+            "title": "Cambridge ESOL First B2",
+            "subtitle": "Cambridge English Language Assessment",
+            "description": "Certificación oficial de inglés nivel B2.",
+            "date": "",
+            "certificate": ""
         }
     ],
     "extras": [
         {
             "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "title": "Proxecto Nós",
+            "description": "Trabajo técnico en administración y desarrollo de la web del proyecto.",
+            "url": "https://nos.gal/"
         },
         {
             "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "title": "Curso Linguaxe e Tecnoloxía",
+            "description": "Participación en la web del curso de verano del CiTIUS.",
+            "url": "https://curso-linguaxe.pages.citius.usc.es/#index"
         },
         {
             "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "title": "Voluntariado Scout Chan 292",
+            "description": "Acción social y medioambiental con foco en trabajo en equipo, responsabilidad y liderazgo.",
+            "url": "https://www.scout.es/"
         }
     ]
 }
